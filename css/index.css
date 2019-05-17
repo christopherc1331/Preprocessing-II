@@ -169,12 +169,12 @@ img {
   margin: 0 auto;
 }
 .header-container {
-  max-width: 800px;
   width: 100%;
   border-bottom: 2px dashed silver;
   margin: 0 auto;
 }
 .header-container header {
+  max-width: 800px;
   margin: 15px auto;
   display: flex;
   align-items: baseline;
@@ -214,8 +214,10 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home {
-  padding: 0 20px;
+@media (max-width: 500px) {
+  .home {
+    padding: 0 20px;
+  }
 }
 .home .content-section {
   margin: 30px 0;
