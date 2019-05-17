@@ -1,12 +1,12 @@
 // Mixins in here
-.button {
+.button(@bgc:@button-bg,@fs:2rem, @color:@main-bg) {
     display: flex;
     padding: 15px 20px;
     margin-right: 30px;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    background-color: @eastern-blue;
-    font-size: 2rem;
-    color: @sandy-beach;
+    background-color: @bgc;
+    font-size: @fs;
+    color: @color;
 }
